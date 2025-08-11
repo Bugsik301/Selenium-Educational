@@ -33,6 +33,7 @@ It is designed for learning purposes and may require adjustments if the target w
 ## Usage
 Run the scraper from the command line:
     **python projekt.py --location "Wrocław" --job "CyberSecurity"**
+    
 Arguments:
   
   --location → City to search in (must match one of the buttons on the site)
@@ -41,4 +42,5 @@ Arguments:
 
 ## Output
 data.json — A JSON file with all scraped offers
+
 scraper_errors.log — Log file with any scraping errors
